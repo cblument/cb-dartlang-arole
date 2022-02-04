@@ -1,0 +1,4 @@
+---
+- name: Empty play
+  debug:
+    msg: "This role does not have any tasks for {{ ansible_distribution }}"
